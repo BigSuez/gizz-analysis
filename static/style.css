@@ -1,0 +1,54 @@
+select {
+    width: 200px;
+    max-width: 100%;
+    margin: auto;
+}
+  
+option {
+    -moz-white-space: pre-wrap;
+    -o-white-space: pre-wrap;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #DDD;
+    border: solid 1px #DDDDDD;
+}
+
+.jumbotron {
+    margin: auto;
+    width: 75%;
+    border: 3px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: ivory;
+}
+
+p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.well {
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    display: flex;
+}
+
+#stats {
+    border: 1px solid black;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    padding: 0px;
+    display: inline-block;
+}
+
+#bar {
+    display: inline;
+    width: 40%;
+}
