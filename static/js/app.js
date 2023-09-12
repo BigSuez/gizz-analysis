@@ -1,12 +1,11 @@
 const url = 'https://raw.githubusercontent.com/BigSuez/gizz-analysis/main/data_extraction/Outputs/gizz_data.json'
+optionChanged(0)
 
-function init(){
-    optionChanged(0)
-}
+
 
 d3.json(url).then(function(data){
     d3.select('select').append('option').text("Summary").property('value', 0);
-    d3.select('select').append('option').text("All Albums").property('value', 1);
+    //d3.select('select').append('option').text("All Albums").property('value', 1);
     for (i=0; i< data.length; i++){
         d3.select('select').append('option').text(data[i].title).property('value', i+2);
     };
@@ -16,27 +15,41 @@ d3.json(url).then(function(data){
 
 function optionChanged(id){
     if (id == 0){
-        makeSummary()
-    }else if(id == 1){
-
+        getSummary()
+    //}else if(id == 1){
+    //    document.getElementById('stats').innerHTML = ''
+    //    getAlbums()
     }else{
-    makeImage(id);
-    makeBar(id);
-    makeStats(id);
+        document.getElementById('stats').innerHTML = ''
+        getImage(Number(id)-2);
+        getBar(Number(id)-2);
+        getStats(Number(id)-2);
     };
 };
 
 
-function makeImage(id){
+function getImage(id){
     document.getElementById('album-cover').innerHTML = `<img src=${albums[id].image}>`;
 };
 
-function makeSummary(){
-    document.getElementById('stats').innerHTML = `Welcome! The goal of this page is to allow you to explore the discography of the greatest band, King Gizzard and the Lizard Wizard. </br>
-                                                Here you'll find stats on each song per album, as well as a comparison between their albums`;
+function getSummary(){
+    document.getElementById('stats').innerHTML = `Welcome! The goal of this page is to allow you to explore the discography of the greatest band, King Gizzard and the Lizard Wizard. </br></br>
+                                                Here you'll find stats on each song per album, as well as a comparison between their albums </br></br>
+                                                Spotify Feature Descriptions: </br>
+                                                <ul>
+                                                <li>Valence: Musical Positivity. Higher = Happier Sounding</li>
+                                                <li>Energy: Intensity. Higher = Faster, Louder</li>
+                                                <li>Danceability: Rhythm Stability. Higher = Stronger Beats</li>
+                                                <li>Acousticness: Confidence Measure. Higher = Likely Acoustic</li>
+                                                <li>Speechiness: Spoken Word. Higher = More Spoken Words</li>
+                                                <li>Instrumentalness: Vocal Presence. Higher = Fewer Vocals</li>
+                                                <li>Liveness: Audience Interaction. Higher = More Likely Live</li>
+                                                </ul>`;
+    document.getElementById('bar').innerHTML = '';
+    document.getElementById('album-cover').innerHTML = '';
 }
 
-function makeStats(id){
+function getStats(id){
     let totalValence = 0, totalDanceability = 0; 
     for (i = 0; i < albums[id].tracks.length; i++){
         track = albums[id].tracks[i].features;
@@ -45,12 +58,10 @@ function makeStats(id){
     };
     let avgValence = totalValence / albums[id].tracks.length;
     let avgDanceability = totalDanceability / albums[id].tracks.length; 
-    document.getElementById('stats').innerHTML = `Avg Valence: ${avgValence} </br>
-                                                  Avg Danceability: ${avgDanceability}`;
 };
 
 
-function makeBar(id){
+function getBar(id){
     let tracks = albums[id].tracks;
     let trace1 = {
         x: tracks.map(track => track.title),

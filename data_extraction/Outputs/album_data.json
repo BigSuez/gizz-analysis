@@ -1,0 +1,352 @@
+[
+    {
+        "album": "PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
+        "stats": {
+            "valence": 0.4308571428571429,
+            "energy": 0.9494285714285713,
+            "danceability": 0.4778571428571428,
+            "acousticness": 0.00021899999999999998,
+            "speechiness": 0.07435714285714286,
+            "instrumentalness": 0.046634,
+            "liveness": 0.3360714285714286,
+            "duration": 48.6743,
+            "tempo": 116.43357142857144
+        }
+    },
+    {
+        "album": "Changes",
+        "stats": {
+            "valence": 0.5105714285714286,
+            "energy": 0.7188571428571429,
+            "danceability": 0.628,
+            "acousticness": 0.14084285714285713,
+            "speechiness": 0.09438571428571428,
+            "instrumentalness": 0.2195457142857143,
+            "liveness": 0.13867142857142858,
+            "duration": 40.05036666666667,
+            "tempo": 127.15214285714286
+        }
+    },
+    {
+        "album": "Laminated Denim",
+        "stats": {
+            "valence": 0.802,
+            "energy": 0.8845000000000001,
+            "danceability": 0.5920000000000001,
+            "acousticness": 0.4615,
+            "speechiness": 0.0391,
+            "instrumentalness": 0.5645,
+            "liveness": 0.108,
+            "duration": 30.0,
+            "tempo": 119.953
+        }
+    },
+    {
+        "album": "Ice, Death, Planets, Lungs, Mushrooms And Lava",
+        "stats": {
+            "valence": 0.6122857142857143,
+            "energy": 0.8822857142857143,
+            "danceability": 0.501,
+            "acousticness": 0.1925042857142857,
+            "speechiness": 0.061642857142857145,
+            "instrumentalness": 0.15730142857142856,
+            "liveness": 0.12608571428571427,
+            "duration": 63.99021666666667,
+            "tempo": 106.52099999999999
+        }
+    },
+    {
+        "album": "Omnium Gatherum",
+        "stats": {
+            "valence": 0.603125,
+            "energy": 0.7906249999999999,
+            "danceability": 0.5969375,
+            "acousticness": 0.09434562500000002,
+            "speechiness": 0.07978125000000001,
+            "instrumentalness": 0.2707245,
+            "liveness": 0.25756874999999996,
+            "duration": 80.3255,
+            "tempo": 123.87618749999999
+        }
+    },
+    {
+        "album": "Made In Timeland",
+        "stats": {
+            "valence": 0.1955,
+            "energy": 0.585,
+            "danceability": 0.4685,
+            "acousticness": 0.0873,
+            "speechiness": 0.0639,
+            "instrumentalness": 0.6945,
+            "liveness": 0.3095,
+            "duration": 30.0045,
+            "tempo": 119.973
+        }
+    },
+    {
+        "album": "Butterfly 3000",
+        "stats": {
+            "valence": 0.7281000000000001,
+            "energy": 0.8649000000000001,
+            "danceability": 0.6191000000000001,
+            "acousticness": 0.24981,
+            "speechiness": 0.046590000000000006,
+            "instrumentalness": 0.336264,
+            "liveness": 0.23993000000000003,
+            "duration": 43.88198333333333,
+            "tempo": 145.9489
+        }
+    },
+    {
+        "album": "L.W.",
+        "stats": {
+            "valence": 0.5941111111111111,
+            "energy": 0.7541111111111111,
+            "danceability": 0.5584444444444445,
+            "acousticness": 0.027963555555555557,
+            "speechiness": 0.04611111111111112,
+            "instrumentalness": 0.5409999999999999,
+            "liveness": 0.22078888888888895,
+            "duration": 42.170233333333336,
+            "tempo": 130.79311111111113
+        }
+    },
+    {
+        "album": "K.G.",
+        "stats": {
+            "valence": 0.5875999999999999,
+            "energy": 0.7255,
+            "danceability": 0.5475000000000001,
+            "acousticness": 0.09097215,
+            "speechiness": 0.06655,
+            "instrumentalness": 0.31307,
+            "liveness": 0.33474,
+            "duration": 41.823116666666664,
+            "tempo": 135.54070000000002
+        }
+    },
+    {
+        "album": "Infest The Rats' Nest",
+        "stats": {
+            "valence": 0.2262222222222222,
+            "energy": 0.8833333333333333,
+            "danceability": 0.2741111111111111,
+            "acousticness": 0.006821033333333334,
+            "speechiness": 0.10015555555555555,
+            "instrumentalness": 0.2959444444444445,
+            "liveness": 0.12525555555555556,
+            "duration": 34.91631666666667,
+            "tempo": 124.24433333333334
+        }
+    },
+    {
+        "album": "Fishing for Fishies",
+        "stats": {
+            "valence": 0.532888888888889,
+            "energy": 0.7358888888888889,
+            "danceability": 0.4273333333333334,
+            "acousticness": 0.0781088888888889,
+            "speechiness": 0.053422222222222225,
+            "instrumentalness": 0.35548777777777774,
+            "liveness": 0.29337777777777774,
+            "duration": 42.02755,
+            "tempo": 141.0223333333333
+        }
+    },
+    {
+        "album": "Gumboot Soup",
+        "stats": {
+            "valence": 0.5142727272727273,
+            "energy": 0.719909090909091,
+            "danceability": 0.4337272727272728,
+            "acousticness": 0.18452645454545458,
+            "speechiness": 0.047954545454545465,
+            "instrumentalness": 0.21945045454545456,
+            "liveness": 0.19999999999999998,
+            "duration": 44.2207,
+            "tempo": 130.03654545454546
+        }
+    },
+    {
+        "album": "Polygondwanaland",
+        "stats": {
+            "valence": 0.58917,
+            "energy": 0.6431,
+            "danceability": 0.48130000000000006,
+            "acousticness": 0.22454000000000002,
+            "speechiness": 0.041879999999999994,
+            "instrumentalness": 0.5325900000000001,
+            "liveness": 0.19817,
+            "duration": 43.872416666666666,
+            "tempo": 120.03189999999998
+        }
+    },
+    {
+        "album": "Sketches of Brunswick East",
+        "stats": {
+            "valence": 0.3871538461538462,
+            "energy": 0.7217692307692308,
+            "danceability": 0.4100769230769231,
+            "acousticness": 0.2889430769230769,
+            "speechiness": 0.057300000000000004,
+            "instrumentalness": 0.3768181538461539,
+            "liveness": 0.4637692307692308,
+            "duration": 37.41865,
+            "tempo": 121.22253846153845
+        }
+    },
+    {
+        "album": "Murder of the Universe",
+        "stats": {
+            "valence": 0.24355238095238096,
+            "energy": 0.7892380952380953,
+            "danceability": 0.3288571428571429,
+            "acousticness": 0.18113743809523805,
+            "speechiness": 0.07896666666666666,
+            "instrumentalness": 0.26346566666666665,
+            "liveness": 0.4141571428571429,
+            "duration": 46.799733333333336,
+            "tempo": 105.0842380952381
+        }
+    },
+    {
+        "album": "Flying Microtonal Banana",
+        "stats": {
+            "valence": 0.5678888888888889,
+            "energy": 0.8412222222222223,
+            "danceability": 0.4245555555555555,
+            "acousticness": 0.3398222222222222,
+            "speechiness": 0.046900000000000004,
+            "instrumentalness": 0.5748222222222222,
+            "liveness": 0.26633333333333337,
+            "duration": 41.942883333333334,
+            "tempo": 127.14411111111112
+        }
+    },
+    {
+        "album": "Nonagon Infinity",
+        "stats": {
+            "valence": 0.43466666666666665,
+            "energy": 0.8875555555555557,
+            "danceability": 0.39677777777777784,
+            "acousticness": 0.0215484,
+            "speechiness": 0.06893333333333333,
+            "instrumentalness": 0.6562222222222223,
+            "liveness": 0.5888888888888889,
+            "duration": 41.80676666666667,
+            "tempo": 116.20655555555557
+        }
+    },
+    {
+        "album": "Paper Mâché Dream Balloon",
+        "stats": {
+            "valence": 0.6376666666666667,
+            "energy": 0.6796666666666668,
+            "danceability": 0.4915833333333334,
+            "acousticness": 0.4985833333333333,
+            "speechiness": 0.05645833333333334,
+            "instrumentalness": 0.2652895333333333,
+            "liveness": 0.28974999999999995,
+            "duration": 33.90356666666667,
+            "tempo": 132.85658333333333
+        }
+    },
+    {
+        "album": "Quarters!",
+        "stats": {
+            "valence": 0.483,
+            "energy": 0.80375,
+            "danceability": 0.3785,
+            "acousticness": 0.473,
+            "speechiness": 0.0492,
+            "instrumentalness": 0.521,
+            "liveness": 0.42774999999999996,
+            "duration": 40.67555,
+            "tempo": 133.377
+        }
+    },
+    {
+        "album": "I'm In Your Mind Fuzz",
+        "stats": {
+            "valence": 0.437,
+            "energy": 0.7864000000000001,
+            "danceability": 0.3702,
+            "acousticness": 0.22994540000000002,
+            "speechiness": 0.07350999999999999,
+            "instrumentalness": 0.6297400000000002,
+            "liveness": 0.32071,
+            "duration": 42.061483333333335,
+            "tempo": 109.03220000000002
+        }
+    },
+    {
+        "album": "Oddments",
+        "stats": {
+            "valence": 0.6312500000000001,
+            "energy": 0.7911666666666668,
+            "danceability": 0.4914166666666668,
+            "acousticness": 0.26098008333333333,
+            "speechiness": 0.07695,
+            "instrumentalness": 0.392811775,
+            "liveness": 0.39675,
+            "duration": 32.209633333333336,
+            "tempo": 108.67991666666667
+        }
+    },
+    {
+        "album": "Float Along – Fill Your Lungs",
+        "stats": {
+            "valence": 0.441075,
+            "energy": 0.7466250000000001,
+            "danceability": 0.3313875,
+            "acousticness": 0.0754468625,
+            "speechiness": 0.0472,
+            "instrumentalness": 0.07581797500000001,
+            "liveness": 0.220225,
+            "duration": 41.974,
+            "tempo": 133.191
+        }
+    },
+    {
+        "album": "Eyes Like The Sky",
+        "stats": {
+            "valence": 0.37272999999999995,
+            "energy": 0.845,
+            "danceability": 0.39349999999999996,
+            "acousticness": 0.5561,
+            "speechiness": 0.10561999999999998,
+            "instrumentalness": 0.10889535200000003,
+            "liveness": 0.4788,
+            "duration": 27.799183333333332,
+            "tempo": 123.12570000000001
+        }
+    },
+    {
+        "album": "12 Bar Bruise",
+        "stats": {
+            "valence": 0.39225,
+            "energy": 0.8658333333333333,
+            "danceability": 0.20020000000000002,
+            "acousticness": 0.043581336666666665,
+            "speechiness": 0.09486666666666667,
+            "instrumentalness": 0.42518785833333334,
+            "liveness": 0.22431666666666664,
+            "duration": 34.31518333333333,
+            "tempo": 148.25933333333333
+        }
+    },
+    {
+        "album": "Willoughby’s Beach",
+        "stats": {
+            "valence": 0.32518888888888886,
+            "energy": 0.9205555555555556,
+            "danceability": 0.24106666666666665,
+            "acousticness": 0.02108521111111111,
+            "speechiness": 0.12715555555555558,
+            "instrumentalness": 0.2928583111111111,
+            "liveness": 0.3505555555555555,
+            "duration": 22.945733333333333,
+            "tempo": 157.64200000000002
+        }
+    }
+]
